@@ -1,0 +1,10 @@
+import time
+import webbrowser
+
+time.sleep(3)
+
+#sleep for 3 seconds
+
+#open link in webbrowser
+
+webbrowser.open('https://youtu.be/bdeVj8nTSyQ')
