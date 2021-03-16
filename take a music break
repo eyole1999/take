@@ -1,10 +1,19 @@
-import time
+#calling objects
 import webbrowser
+import time
 
-time.sleep(3)
+#storing link
+url="https://youtu.be/REoANd69pOI" 
 
-#sleep for 3 seconds
+#storing time in seconds
+seconds=int(10)
 
-#open link in webbrowser
+time.sleep(seconds)
 
-webbrowser.open('https://youtu.be/bdeVj8nTSyQ')
+webbrowser.open(url)
+
+#Playing music at appointed time
+while time:
+    print ("lets relax massa")
+    time.sleep(seconds)
+    webbrowser.open(url)
